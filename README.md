@@ -1,0 +1,1 @@
+The purpose of this project is to practice my HTML and CSS skills by attempting to recreate the google home page. This will also put into practice my git abilities to be able to use this tool efficiently in the future.
