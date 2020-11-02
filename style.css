@@ -13,22 +13,6 @@ a:link, a:visited, a:hover, a:active{
     color:#727272;
 }
 
-#logo{
-    width:15%;
-    height:auto;
-    margin:5% 0 0 0; 
-}
-
-#search-bar{
-    width:527px;
-    height:34px;
-    margin: 0 0 25px 0;
-}
-
-#center{
-    text-align: center;
-}
-
 #navbar{
     display: flex;
     flex-flow: row nowrap;
@@ -57,6 +41,45 @@ a:link, a:visited, a:hover, a:active{
     border-width: 2px;
 }
 
+#center{
+    text-align: center;
+}
+
+#logo{
+    width:15%;
+    height:auto;
+    margin:5% 0 0 0; 
+}
+
+#search-bar{
+    width:30%;
+    height:40px;
+    margin: 0 0 25px 0;
+    border:solid;
+    border-color: #d6d6d6;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+#search-bar:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(184, 185, 187, 0);
+}
+
+#search-button, #feeling-lucky{
+    background-color: #f2f2f2;
+    color: #626262;
+    border:none;
+    padding: 8px 18px;
+    margin: 0 4px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#language{
+    color:black;
+}
+
 #lang:visited, #lang:link{
     color:blue;
 }
@@ -65,3 +88,37 @@ form{
     margin: 10px 0px 0px 0px;
 }
 
+footer{
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    
+}
+
+#country, #foot{
+    background-color:#f2f2f2;
+    border-top: 1px solid;
+    border-top-color: #e4e4e4;
+    display:flex;
+}
+
+#count{
+    margin:10px 20px;
+    font-size: 14px;
+}
+
+#foot{
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    display:flex;
+}
+#foot-left,#foot-right{
+    display:flex;
+    flex-flow: row nowrap;
+    margin: 10px 15px;
+}
+
+.extra-left, .extra-right{
+    margin: 5px 15px;
+    font-size: 14px;
+}
