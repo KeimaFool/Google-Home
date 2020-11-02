@@ -1,3 +1,67 @@
 body, footer{
     font-family: Arial, sans-serif;
+    background-color:white;
+    color:#727272;
 }
+
+p{
+    font-size: small;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color:#727272;
+}
+
+#logo{
+    width:15%;
+    height:auto;
+    margin:5% 0 0 0; 
+}
+
+#search-bar{
+    width:527px;
+    height:34px;
+    margin: 0 0 25px 0;
+}
+
+#center{
+    text-align: center;
+}
+
+#navbar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.nav{
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+#box{
+    background-color: #727272;
+    width: 20px;
+    height: 20px;
+}
+
+#photo{
+    background-color: white;
+    border-color: #727272;
+    width: 20px;
+    height: 20px;
+    border:solid;
+    border-radius: 50%;
+    border-width: 2px;
+}
+
+#lang:visited, #lang:link{
+    color:blue;
+}
+
+form{
+    margin: 10px 0px 0px 0px;
+}
+
